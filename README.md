@@ -1,4 +1,6 @@
 # Four-Legged Spider Robot Locomotion Using DDPG Agent
+Demonstration Link: [a link](https://www.youtube.com/playlist?list=PLrXurzH_oKpuT00fxP0ZjtIjLz9AAMmnC)
+
 This project shows how to train a Four Legged Spider Robot to walk using a deep deterministic policy gradient (DDPG) agent. The robot in this example is modeled using Simscape™ Multibody™. For more information on DDPG agents, see Deep Deterministic Policy Gradient Agents.
 The robot is modeled using Simscape Multibody with its main structural components consisting of the environment, which contains the robot model and the physical environment around the robot (Tiny Spider Block), reinforcement learning agent, and the required inputs of the agent such as the observations vector, the reward value, and the stopping criteria. The robots' joints are actuated by torque signals provided by the RL Agent.
 
